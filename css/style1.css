@@ -575,6 +575,18 @@ nav ul li a:hover::after{
     background: var(--bs-secondary);
     color: var(--bs-white);
 }
+.container {
+    display: flex;
+}
+
+
+.about-company, .opening-hours {
+    margin: 100px;
+}
+
+.about-company p, .opening-hours ul li {
+    margin-bottom: 20px;
+}
 /*** testimonial End ***/
 
 
