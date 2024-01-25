@@ -575,6 +575,12 @@ nav ul li a:hover::after{
     background: var(--bs-secondary);
     color: var(--bs-white);
 }
+.vl{
+    border-left: 6px solid green;
+  height: 500px;
+  left: 50%;
+  margin-left: -3px;
+}
 .container {
     display: flex;
 }
