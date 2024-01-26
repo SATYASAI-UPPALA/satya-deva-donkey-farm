@@ -101,14 +101,76 @@
     transition: 0.5s;
     z-index: 99;
 }
-#about{
-    padding: 50px;
-  text-align: center;
-  background-color: #85a1dc;
-  color: white;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.farm-info {
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initials {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.details {
+    margin-left: 10px;
+}
+
+.address {
+    color: gray;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.reviews {
+    margin-left: 5px;
+    color: gray;
+}
+
+.buttons {
+    display: flex;
+}
+
+.contact, .quote {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.contact {
+    color: black;
+    background-color: white;
+}
+
+.quote {
+    color: white;
+    background-color: yellow;
+}
 
 
-} */
+*/
 .profile{
     border-radius: 50%;
 }
